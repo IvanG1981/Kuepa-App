@@ -1,0 +1,56 @@
+/*Selectores de elementos */
+body {
+  background-color: white;
+  color: #555;
+  font-family: 'Montserrat', sans-serif;
+
+}
+img {
+  margin-left: 10px;
+}
+footer {
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto 0;
+  position: relative;
+  width:75%;
+}
+footer img{
+  display: flex;
+}
+footer small{
+  display: flex;
+  opacity: 0.5;
+}
+/*Selectores de clases */
+
+.main-container {
+  height: 80%;
+}
+
+.tableContainer {
+  height: 250px;
+}
+.search {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+/* Diseño responsivo para ver el avatar en distintos tamaños de pantalla */
+.avatar {
+  margin-left: 60%;
+}
+
+@media(min-width: 600px){
+  .avatar{
+    margin-left:65%;
+  }
+
+}
+@media(min-width: 1400px){
+  .avatar {
+    margin-left: 88%;
+  }
+}
