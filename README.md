@@ -1,6 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+##Some notes on the project:
+
+- The file data.js has an array of 8 objects with fake data to test the functionality
+- Clone the project to local environment
+- In the project directory if necessary install yarn
+- If not go ahead to the next step to run the project
 
 In the project directory, you can run:
 
